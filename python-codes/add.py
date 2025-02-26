@@ -5,6 +5,6 @@ def sum(a,b):
     div = a//b
     return sum,sub,mul,div
 
-sum,sub,mul,div = sum(2,4)
+sum,sub,mul,div = sum(4,8)
 
 
