@@ -4,4 +4,4 @@ def factorial(n):
         x = x*i
     return x
 
-print(factorial(5))
+print(factorial(6))
