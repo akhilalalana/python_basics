@@ -34,8 +34,8 @@ def classify_num(num):
         if i % 2 == 0:
             even.append(i)
         if i % 2 != 0:
-                 odd.append(i)
-     return even,odd
+             odd.append(i)
+    return even,odd
 
 
 num = [2, 22,33, 55,64,75,87,96,155]
@@ -98,3 +98,11 @@ for i in n:
         count[i] = 1
 
 print(count)
+
+
+def sum(a,b):
+    add = a+ b
+    return add
+
+result = sum(2,3)
+print(result)
